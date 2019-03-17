@@ -1,0 +1,20 @@
+{
+    "name": "t3ko/splio-data-api",
+    "description": "Splio Data API PHP client",
+    "require": {
+        "psr/http-client": "^1.0",
+        "jms/serializer": "^1",
+        "doctrine/collections": "^1.5",
+        "psr/http-client-implementation": "*",
+        "php-http/message-factory": "^1.0"
+    },
+    "require-dev": {
+        "php-http/guzzle6-adapter": "^2.0",
+        "nyholm/psr7": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "T3ko\\SplioData\\": "src/"
+        }
+    }
+}
